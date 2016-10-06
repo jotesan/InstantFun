@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="org.cuatrovientos.android.instantfun.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Combo Braker"
+        android:id="@+id/comboBreaker"
+        android:onClick="sound1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Darth Vader"
+        android:id="@+id/darthVader"
+        android:onClick="sound2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="D'oh!"
+        android:id="@+id/doh"
+        android:onClick="sound3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Fatality"
+        android:id="@+id/fatality"
+        android:onClick="sound4" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Gaaaay"
+        android:id="@+id/gaaaay"
+        android:onClick="sound5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Hadouken"
+        android:id="@+id/hadouken"
+        android:onClick="sound6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Quiero mi bocadillo"
+        android:id="@+id/homerBocadillo"
+        android:onClick="sound7" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="I'm Batman"
+        android:id="@+id/imBatman"
+        android:onClick="sound8" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="It's a trap!"
+        android:id="@+id/itsATrap"
+        android:onClick="sound9" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Kamehameha"
+        android:id="@+id/kamehameha"
+        android:onClick="sound10" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Nyancat"
+        android:id="@+id/nyancat"
+        android:onClick="sound11" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7pt"
+        android:layout_marginLeft="30pt"
+        android:layout_marginRight="30pt"
+        android:text="Noooo!"
+        android:id="@+id/starWarsNoooo"
+        android:onClick="sound12" />
+</LinearLayout>
+</ScrollView>
